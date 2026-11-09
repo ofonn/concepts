@@ -1,0 +1,53 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
+<title>Greenpath · Parent portal (concept)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Gloock&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+<style>
+:root{--gr:#0d5236;--gr2:#e3eee7;--cr:#f6f3ec;--ink:#121614;--mu:#66706a;--ln:#dcdcd2;--go:#e9b949}
+*{box-sizing:border-box;margin:0;padding:0}body{background:var(--cr);color:var(--ink);font-family:"DM Sans",sans-serif;font-size:15px;line-height:1.6;overflow-x:hidden}
+img{display:block;max-width:100%}a{color:inherit;text-decoration:none}h1,h2,h3{font-family:Gloock,serif;font-weight:400;line-height:1;letter-spacing:-.01em}
+.w{width:min(1300px,94vw);margin:0 auto}
+.rib{background:var(--gr);color:#e3eee7;font-size:12px;text-align:center;padding:7px 12px}
+header{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-bottom:1px solid var(--ln)}header img{height:62px}header nav{display:flex;gap:26px;font-size:14px}
+.bt{background:var(--gr);color:#fff;padding:12px 22px;border-radius:6px;font-weight:500;font-size:14px}.bt.y{background:var(--go);color:var(--ink)}
+.hero{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:128px;gap:12px;padding:24px 0 0}
+.hero .t{grid-column:1/8;grid-row:1/4;display:flex;flex-direction:column;justify-content:space-between;padding:10px 0}
+.hero h1{font-size:clamp(54px,6.6vw,104px)}.hero h1 em{font-style:normal;color:var(--gr)}
+.hero .t p{font-size:17px;color:var(--mu);max-width:470px}.hero .t .hb{display:flex;gap:10px;margin-top:18px;flex-wrap:wrap}
+.hero figure{overflow:hidden;border-radius:10px;position:relative}.hero figure img{width:100%;height:100%;object-fit:cover}
+.f1{grid-column:8/13;grid-row:1/4}.f2{grid-column:1/4;grid-row:4/6}.f3{grid-column:4/7;grid-row:4/6}.f4{grid-column:7/10;grid-row:4/6}.f5{grid-column:10/13;grid-row:4/6}
+.badge{position:absolute;left:14px;bottom:14px;background:var(--cr);border-radius:6px;padding:8px 12px;font-size:13px;font-weight:500}
+.vals{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:30px 0;border-bottom:1px solid var(--ln);font-family:Gloock;font-size:clamp(20px,2.4vw,32px);color:var(--gr)}
+.sec{padding:90px 0 0}.hd{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:30px}.hd h2{font-size:clamp(42px,5.4vw,80px)}.hd h2 em{font-style:normal;color:var(--gr)}.hd p{max-width:380px;color:var(--mu)}
+.lab{display:block;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--gr);font-weight:700;margin-bottom:12px}
+.pt{background:var(--gr);border-radius:16px;padding:28px;display:grid;grid-template-columns:1.35fr 1fr;gap:16px}
+.pc{background:#fff;border-radius:12px;padding:22px}.pc h3{font-size:26px;margin-bottom:4px}.pc .s{font-size:13px;color:var(--mu);margin-bottom:14px}
+.kid{display:flex;gap:12px;align-items:center;margin-bottom:16px}.kid i{width:44px;height:44px;border-radius:50%;background:var(--gr2);display:grid;place-items:center;font-style:normal;font-weight:700;color:var(--gr)}.kid small{display:block;color:var(--mu);font-size:12px}
+table{width:100%;border-collapse:collapse;font-size:14px}th{text-align:left;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mu);font-weight:500;padding:8px 0;border-bottom:1px solid var(--ln)}td{padding:11px 0;border-bottom:1px solid #eee}td b{background:var(--gr2);color:var(--gr);border-radius:4px;padding:2px 8px;font-size:13px}
+.dl{display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-size:14px}.dl a{color:var(--gr);font-weight:700}
+.rs{display:grid;gap:16px}.fee .amt{font-family:Gloock;font-size:40px;line-height:1;margin:6px 0 4px}.fee .bar{height:8px;background:#eee;border-radius:9px;overflow:hidden;margin:12px 0}.fee .bar i{display:block;height:100%;width:60%;background:var(--go)}
+.fee .row{display:flex;justify-content:space-between;font-size:13px;color:var(--mu)}.fee .bt{display:block;text-align:center;margin-top:14px}
+.nl{list-style:none}.nl li{display:flex;gap:12px;padding:10px 0;border-bottom:1px solid #eee;font-size:14px}.nl li:last-child{border:0}.nl span{min-width:46px;text-align:center;background:var(--cr);border-radius:6px;font-size:11px;padding:4px 0;line-height:1.2}.nl span b{display:block;font-size:16px}
+.nt{font-size:12.5px;color:var(--mu);margin-top:14px}
+.cl{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.cl div{background:#fff;border-radius:12px;overflow:hidden}.cl img{height:240px;width:100%;object-fit:cover}.cl .tx{padding:20px}.cl h3{font-size:30px}.cl small{color:var(--gr);font-weight:700;font-size:13px}
+.vis{margin-top:90px;display:grid;grid-template-columns:1fr 1fr;gap:12px}.vis img{border-radius:12px;height:100%;width:100%;object-fit:cover;min-height:360px}.vb{background:var(--ink);color:var(--cr);border-radius:12px;padding:44px;display:flex;flex-direction:column;justify-content:space-between;gap:30px}
+.vb h2{font-size:clamp(40px,5vw,70px)}.vb dl{display:grid;gap:14px;font-size:15px}.vb dt{color:var(--go);font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700}
+footer{padding:28px 0;font-size:12.5px;color:var(--mu)}footer .w{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:900px){header nav{display:none}header img{height:42px}.hero{grid-template-columns:1fr 1fr;grid-auto-rows:auto}.hero .t{grid-column:1/3;grid-row:auto}.hero figure{grid-column:auto!important;grid-row:auto!important;height:170px}.hero .f1{grid-column:1/3!important;height:300px}.hero .f5{display:none}.hero .f4{grid-column:1/3!important}
+.vals{justify-content:flex-start;gap:6px 16px;font-size:20px}.hd{flex-direction:column;align-items:start;gap:10px}.pt{grid-template-columns:1fr;padding:14px}.pc{padding:16px}.cl{grid-template-columns:1fr}.vis{grid-template-columns:1fr}.vis img{min-height:240px}.vb{padding:28px}.sec{padding-top:70px}}
+</style></head><body>
+<div class="rib"><b>Concept by Ofonime Usuyak</b>, not the official Greenpath website. Facts and photos are from greenpathprepschool.sch.ng.</div>
+<div class="w"><header><img src="img/141c6449.webp" alt="Greenpath Preparatory School logo"><nav><a href="#portal">Parent portal</a><a href="#classes">Classes</a><a href="#visit">Visit</a></nav><a class="bt" href="#portal">Parent login</a></header>
+<section class="hero"><div class="t"><h1>Stepping to <em>greater</em> heights.</h1><div><p>Report cards, fees and school notices for every Greenpath family, in one parent portal.</p><div class="hb"><a class="bt" href="#portal">See the portal</a><a class="bt y" href="#visit">Book a visit</a></div></div></div>
+<figure class="f1"><img src="img/68c38688.jpg" alt="Greenpath pupil with painted hands"></figure><figure class="f2"><img src="img/97c5f504.jpg" alt="Pupils with a globe"></figure><figure class="f3"><img src="img/16ca08fc.jpg" alt="Science lab"></figure><figure class="f4"><img src="img/4887cee5.jpg" alt="Cultural day performance"><span class="badge">Early Years · Primary · College</span></figure><figure class="f5"><img src="img/7312964c.jpg" alt="Early Years play"></figure></section>
+<div class="vals"><span>Brilliant</span><span>Confident</span><span>Resilient</span><span>Responsible</span><span>Goal oriented</span><span>Result driven</span></div>
+<section class="sec" id="portal"><div class="hd"><div><span class="lab">Proposed next step</span><h2>Every parent, <em>in the loop.</em></h2></div><p>Parents see results the day they are released, pay fees online and never miss a notice from school.</p></div>
+<div class="pt"><div class="pc"><div class="kid"><i>T</i><div><b>Tobi A. · sample</b><small>Primary 4 · First term</small></div></div><h3>Report card</h3><p class="s">Sample scores</p>
+<table><tr><th>Subject</th><th>CA</th><th>Exam</th><th>Grade</th></tr><tr><td>English</td><td>32</td><td>51</td><td><b>A</b></td></tr><tr><td>Mathematics</td><td>35</td><td>48</td><td><b>A</b></td></tr><tr><td>Basic Science</td><td>28</td><td>44</td><td><b>B</b></td></tr><tr><td>Social Studies</td><td>30</td><td>46</td><td><b>A</b></td></tr></table>
+<div class="dl"><span>Teacher's comment available</span><a href="#portal">Download PDF ↓</a></div></div>
+<div class="rs"><div class="pc fee"><h3>School fees</h3><p class="s">First term · sample amounts</p><div class="amt">₦ sample</div><div class="bar"><i></i></div><div class="row"><span>60% paid</span><span>Balance due · sample date</span></div><a class="bt" href="#portal">Pay balance online</a></div>
+<div class="pc"><h3>Notices</h3><ul class="nl"><li><span>Nov<b>14</b></span>Inter-house sports: wear house colours</li><li><span>Nov<b>21</b></span>Spelling bee finals</li></ul></div></div></div>
+<p class="nt">Illustration of a feature we can build. Not live today. Pupil, scores, fees and dates are samples.</p></section>
+<section class="sec" id="classes"><div class="hd"><h2>From first steps<br>to <em>university.</em></h2></div><div class="cl"><div><img src="img/adb3b867.jpg" alt="Early Years reading"><div class="tx"><small>8am – 2pm</small><h3>Early Years</h3></div></div><div><img src="img/97c5f504.jpg" alt="Primary pupils"><div class="tx"><small>8am – 2pm</small><h3>Primary</h3></div></div><div><img src="img/16ca08fc.jpg" alt="College science"><div class="tx"><small>8am – 3pm</small><h3>College</h3></div></div></div></section>
+<section class="vis" id="visit"><img src="img/e3b03e65.jpg" alt="Greenpath Preparatory School building"><div class="vb"><h2>Come and see Greenpath.</h2><dl><div><dt>Campus</dt><dd>Plot 234, Cadastral Zone B13, Gaduwa District, Abuja</dd></div><div><dt>Call</dt><dd>+234 810 668 5199 · +234 707 615 1431</dd></div><div><dt>Email</dt><dd>info@greenpathprepschool.sch.ng</dd></div></dl></div></section></div>
+<footer><div class="w"><span>Concept by Ofonime Usuyak for Greenpath Preparatory School. Not the official website.</span><span>Facts and photos from greenpathprepschool.sch.ng</span></div></footer>
+</body></html>
