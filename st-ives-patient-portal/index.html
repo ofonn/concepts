@@ -1,0 +1,56 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
+<title>St. Ives · Patient portal (concept)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root{--rd:#d71920;--rd2:#fdeceb;--ink:#17191c;--mu:#6b7078;--ln:#e8e9ec;--bg:#fafafa}
+*{box-sizing:border-box;margin:0;padding:0}body{background:var(--bg);color:var(--ink);font-family:Sora,sans-serif;font-size:15px;line-height:1.6;overflow-x:hidden}
+img{display:block;max-width:100%}a{color:inherit;text-decoration:none}h1,h2,h3{font-weight:300;letter-spacing:-.035em;line-height:1.02}
+.w{width:min(1260px,92vw);margin:0 auto}
+.rib{background:var(--ink);color:#fff;font-size:12px;text-align:center;padding:7px 12px}
+header{display:flex;justify-content:space-between;align-items:center;padding:16px 0}header img{height:54px}header nav{display:flex;gap:26px;font-size:14px;color:var(--mu)}
+.bt{background:var(--rd);color:#fff;border-radius:12px;padding:12px 20px;font-size:14px;font-weight:600}
+.hero{display:grid;grid-template-columns:1fr 1.1fr;gap:50px;align-items:center;padding:30px 0 0}
+.hero h1{font-size:clamp(46px,6vw,86px)}.hero h1 b{font-weight:600;color:var(--rd)}.hero p{color:var(--mu);font-size:17px;max-width:440px;margin:22px 0 30px}
+.hb{display:flex;gap:10px;flex-wrap:wrap}.hb .g{background:#fff;border:1px solid var(--ln);color:var(--ink)}
+.chip{display:inline-flex;gap:8px;align-items:center;background:var(--rd2);color:var(--rd);border-radius:99px;padding:6px 14px;font-size:13px;font-weight:600;margin-bottom:22px}
+.hi{position:relative}.hi img{border-radius:28px;width:100%;height:540px;object-fit:cover}
+.nx{position:absolute;left:-40px;bottom:36px;background:#fff;border-radius:20px;padding:18px 20px;box-shadow:0 24px 50px -20px rgba(0,0,0,.25);width:290px}
+.nx small{color:var(--mu);font-size:12px}.nx b{display:block;font-weight:600;margin:2px 0 10px}.nx div{display:flex;gap:10px;justify-content:space-between;font-size:13px;background:var(--bg);border-radius:12px;padding:10px 12px}.nx em{font-style:normal;color:var(--rd);font-weight:600}
+.est{position:absolute;right:20px;top:20px;background:var(--rd);color:#fff;border-radius:16px;padding:12px 16px;font-size:13px;line-height:1.3}.est b{display:block;font-size:24px}
+.svc{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;padding:60px 0 0}.svc span{border:1px solid var(--ln);background:#fff;border-radius:99px;padding:10px 20px;font-size:15px}
+.sec{padding:100px 0 0}.hd{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:34px}.hd h2{font-size:clamp(40px,5vw,68px)}.hd h2 b{font-weight:600;color:var(--rd)}.hd p{max-width:380px;color:var(--mu)}
+.lab{display:block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--rd);font-weight:600;margin-bottom:12px}
+.po{background:#fff;border:1px solid var(--ln);border-radius:28px;display:grid;grid-template-columns:240px 1fr;overflow:hidden}
+.side{background:var(--ink);color:#fff;padding:26px;display:flex;flex-direction:column;gap:6px}.side .me{margin-bottom:20px}.side .me small{color:#9aa0a8;font-size:12px}.side .me b{display:block;font-weight:600}
+.side span{padding:10px 12px;border-radius:10px;font-size:14px;color:#c9ccd1}.side .on{background:rgba(255,255,255,.1);color:#fff}
+.main{padding:28px;display:grid;grid-template-columns:1.2fr 1fr;gap:18px}.cd{border:1px solid var(--ln);border-radius:20px;padding:20px}.cd h3{font-size:22px;font-weight:600;letter-spacing:-.02em;margin-bottom:14px}
+.f{display:grid;grid-template-columns:1fr 1fr;gap:10px}.f div{background:var(--bg);border-radius:12px;padding:10px 12px;font-size:14px}.f small{display:block;font-size:11px;color:var(--mu)}
+.sl{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.sl span{border:1px solid var(--ln);border-radius:10px;padding:8px 12px;font-size:13px}.sl .on{background:var(--rd);border-color:var(--rd);color:#fff}
+.cf{margin-top:14px;background:var(--rd);color:#fff;text-align:center;border-radius:12px;padding:12px;font-weight:600}
+.rs{display:grid;gap:10px}.rs div{display:flex;justify-content:space-between;align-items:center;font-size:14px;padding:10px 0;border-bottom:1px solid var(--ln)}.rs em{font-style:normal;font-size:12px;border-radius:99px;padding:3px 10px;background:#e8f6ee;color:#1d7a46}.rs em.p{background:#fff4e0;color:#a2650c}
+.vc{margin-top:14px;background:var(--rd2);border-radius:14px;padding:14px;font-size:14px;display:flex;justify-content:space-between;align-items:center}.vc b{color:var(--rd)}
+.nt{font-size:12.5px;color:var(--mu);margin-top:14px}
+.fac{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.fac figure{position:relative}.fac img{border-radius:22px;height:300px;width:100%;object-fit:cover}.fac figcaption{position:absolute;left:14px;bottom:14px;background:#fff;border-radius:99px;padding:6px 14px;font-size:13px;font-weight:600}
+.br{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:stretch}.br ul{list-style:none;background:#fff;border:1px solid var(--ln);border-radius:24px;padding:10px 24px}.br li{display:flex;justify-content:space-between;padding:18px 0;border-bottom:1px solid var(--ln);font-size:16px}.br li:last-child{border:0}.br li b{font-weight:600}.br li a{color:var(--rd);font-size:14px}
+.br .ims{display:grid;grid-template-columns:1fr 1fr;gap:16px}.br .ims img{border-radius:24px;width:100%;height:100%;object-fit:cover;max-height:340px}
+.ct{margin-top:100px;background:var(--rd);color:#fff;border-radius:28px;padding:50px;display:flex;justify-content:space-between;align-items:end;gap:30px;flex-wrap:wrap}.ct h2{font-size:clamp(40px,5vw,68px)}.ct p{font-size:15px}
+footer{padding:28px 0;font-size:12.5px;color:var(--mu)}footer .w{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:900px){header nav{display:none}header img{height:44px}.hero{grid-template-columns:1fr;gap:30px}.hi img{height:380px}.nx{left:12px;bottom:12px;width:250px}
+.hd{flex-direction:column;align-items:start;gap:10px}.po{grid-template-columns:1fr}.side{flex-direction:row;flex-wrap:wrap;padding:18px}.side .me{width:100%;margin-bottom:6px}.main{grid-template-columns:1fr;padding:16px}
+.fac{grid-template-columns:1fr}.fac img{height:220px}.br{grid-template-columns:1fr}.br .ims{display:none}.ct{padding:32px 24px}.sec{padding-top:70px}.svc span{font-size:13px;padding:8px 14px}}
+</style></head><body>
+<div class="rib"><b>Concept by Ofonime Usuyak</b>, not the official St. Ives website. Facts and photos are from stiveshealthcare.com.</div>
+<div class="w"><header><img src="img/81c7575e.webp" alt="St. Ives Specialist Hospital logo"><nav><a href="#portal">Patient portal</a><a href="#branches">Branches</a><a href="#care">Our care</a></nav><a class="bt" href="#portal">Book appointment</a></header>
+<section class="hero"><div><span class="chip">● Women · Children · Family · Fertility</span><h1>Your care, <b>one login</b> away.</h1><p>Book at any of our five branches, see your results and join a video consultation, all from your phone.</p><div class="hb"><a class="bt" href="#portal">Book appointment</a><a class="bt g" href="#branches">Find a branch</a></div></div>
+<div class="hi"><img src="img/e43ddb80.webp" alt="St. Ives hospital building"><div class="est"><b>1996</b>Caring since</div><div class="nx"><small>Next appointment · sample</small><b>Fertility consultation</b><div><span>Opebi · Thu 10:30</span><em>Confirmed</em></div></div></div></section>
+<div class="svc" id="care"><span>Fertility &amp; IVF</span><span>Pregnancy care</span><span>Neonatal care</span><span>Children’s health</span><span>Women’s health</span><span>Telemedicine</span></div>
+<section class="sec" id="portal"><div class="hd"><div><span class="lab">Proposed next step</span><h2>A patient portal for <b>every branch.</b></h2></div><p>Patients book, reschedule and get results without calling the front desk. Staff see one calendar across all five branches.</p></div>
+<div class="po"><div class="side"><div class="me"><small>Signed in · sample</small><b>Mrs. A. Bello</b></div><span class="on">Book</span><span>My results</span><span>Video consult</span><span>Payments</span></div>
+<div class="main"><div class="cd"><h3>Book an appointment</h3><div class="f"><div><small>Service</small>Fertility &amp; IVF</div><div><small>Branch</small>Opebi</div><div><small>Doctor</small>Any specialist</div><div><small>Date</small>Thu · sample</div></div><div class="sl"><span>9:00</span><span class="on">10:30</span><span>12:00</span><span>2:30</span></div><div class="cf">Confirm appointment</div></div>
+<div class="cd"><h3>My results</h3><div class="rs"><div><span>Hormone profile</span><em>Ready</em></div><div><span>Pelvic scan report</span><em>Ready</em></div><div><span>Semen analysis</span><em class="p">Pending</em></div></div><div class="vc"><span>Video consult · Fri 4pm</span><b>Join →</b></div></div></div></div>
+<p class="nt">Illustration of a feature we can build. Not live today. Patient name, tests, dates and times are samples.</p></section>
+<section class="sec"><div class="hd"><h2>Built for <b>specialist</b> care.</h2><p>Started in a 3-bedroom apartment in Ikeja in 1996. Now a SafeCare-accredited multi-specialist hospital.</p></div><div class="fac"><figure><img src="img/01b18154.webp" alt="Laboratory at St. Ives"><figcaption>Laboratory</figcaption></figure><figure><img src="img/cbe90bd9.webp" alt="Theatre at St. Ives"><figcaption>Theatre</figcaption></figure><figure><img src="img/ed1ef05a.webp" alt="Pharmacy at St. Ives"><figcaption>Pharmacy</figcaption></figure></div></section>
+<section class="sec" id="branches"><div class="hd"><h2>Five branches.<br><b>One record.</b></h2><p>With the portal, a patient's history follows them to whichever branch they visit.</p></div><div class="br"><ul><li><b>Opebi (head office)</b><a href="#portal">Book here →</a></li><li><b>Ikoyi</b><a href="#portal">Book here →</a></li><li><b>Akowonjo</b><a href="#portal">Book here →</a></li><li><b>Festac</b><a href="#portal">Book here →</a></li><li><b>Abeokuta</b><a href="#portal">Book here →</a></li></ul><div class="ims"><img src="img/1d68f264.webp" alt="St. Ives branch"><img src="img/e4222749.webp" alt="St. Ives branch"></div></div></section>
+<section class="ct"><h2>Talk to us.</h2><div><p>Head office: 12 Salvation Road, Opebi, Lagos</p><p>(+234) 704 595 8989 · (+234) 708 1575 872</p><p>info@stiveshealthcare.com</p></div></section></div>
+<footer><div class="w"><span>Concept by Ofonime Usuyak for St. Ives Specialist Hospital. Not the official website.</span><span>Facts and photos from stiveshealthcare.com</span></div></footer>
+</body></html>
