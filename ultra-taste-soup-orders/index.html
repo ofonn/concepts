@@ -1,0 +1,43 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
+<title>Ultra Taste · Chat ordering (concept)</title>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--pu:#3b1d5e;--pu2:#5a2f8a;--go:#e2b34a;--cr:#faf6ef;--ch:#e7f6e9;--gn:#1f9d55;--ink:#1c1426;--mu:#77708a}
+*{box-sizing:border-box;margin:0;padding:0}body{background:var(--cr);color:var(--ink);font-family:"Instrument Sans",sans-serif;overflow-x:hidden}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
+.w{width:min(1240px,92vw);margin:0 auto}.rib{background:var(--pu);color:#eadcff;font-size:12px;text-align:center;padding:7px 12px}
+header{display:flex;justify-content:space-between;align-items:center;padding:14px 0}header img{height:64px}header nav{display:flex;gap:28px;font-weight:500;font-size:15px}
+.bt{display:inline-block;padding:14px 24px;border-radius:14px;font-weight:600;font-size:15px;background:var(--pu);color:#fff;white-space:nowrap}.bt.g{background:var(--gn)}.bt.o{background:transparent;border:1.5px solid var(--pu);color:var(--pu)}
+h1,h2,h3{font-family:"Young Serif",serif;font-weight:400;line-height:1.02;letter-spacing:-.01em}
+.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center;padding:30px 0 0}.hero h1{font-size:clamp(52px,6.4vw,96px);color:var(--pu)}.hero h1 span{color:var(--go)}.hero p{font-size:19px;color:var(--mu);max-width:440px;margin:22px 0 28px;line-height:1.5}.hb{display:flex;gap:10px;flex-wrap:wrap}
+.chat{background:#fff;border-radius:34px;box-shadow:0 30px 70px rgba(59,29,94,.18);overflow:hidden;max-width:440px;justify-self:center;width:100%}.ch{background:var(--pu);color:#fff;padding:16px 20px;display:flex;align-items:center;gap:12px}.ch .av{width:42px;height:42px;border-radius:50%;background:#fff url(img/6ed1499b.webp) center/80% no-repeat}.ch b{display:block;font-size:16px}.ch span{font-size:12px;opacity:.75}
+.cb{background:#f3eee6;padding:18px 16px;display:flex;flex-direction:column;gap:10px}.m{max-width:82%;padding:10px 14px;border-radius:16px;font-size:14px;line-height:1.4;background:#fff}.m.me{align-self:flex-end;background:var(--ch)}.m small{display:block;font-size:10px;color:var(--mu);text-align:right;margin-top:2px}
+.opts{display:flex;flex-wrap:wrap;gap:6px}.opts span{background:#fff;border:1.5px solid var(--pu2);color:var(--pu2);border-radius:99px;padding:7px 12px;font-size:13px;font-weight:600}.opts .on{background:var(--pu2);color:#fff}
+.card{background:#fff;border-radius:16px;overflow:hidden;max-width:82%}.card img{height:120px;width:100%;object-fit:cover;object-position:top}.card div{padding:10px 14px;font-size:13px}.card b{font-size:15px;display:block}
+.sec{padding:110px 0 0}.hd{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:34px;flex-wrap:wrap}.hd h2{font-size:clamp(44px,5.4vw,80px);color:var(--pu)}.hd h2 span{color:var(--go)}.hd p{max-width:380px;color:var(--mu);font-size:17px}
+.lab{display:inline-block;background:#efe6fa;color:var(--pu2);border-radius:99px;padding:6px 14px;font-size:13px;font-weight:600;margin-bottom:14px}
+.how{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.hw{background:#fff;border-radius:26px;padding:26px;display:flex;flex-direction:column;gap:10px;border:1px solid #ece4f5}.hw b{font-family:"Young Serif";font-size:44px;color:var(--go);line-height:1}.hw h3{font-size:24px;color:var(--pu)}.hw p{font-size:15px;color:var(--mu)}
+.nt{font-size:13px;color:var(--mu);margin-top:16px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:20px}.pc{position:relative;border-radius:30px;overflow:hidden;min-height:420px;color:#fff}.pc img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.pc:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(28,20,38,.85))}.pc div{position:absolute;left:28px;right:28px;bottom:26px;z-index:2}.pc h3{font-size:40px}.pc p{opacity:.85;margin-top:6px}
+.svc{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}.svc span{background:#fff;border:1px solid #ece4f5;border-radius:99px;padding:12px 18px;font-weight:600;color:var(--pu)}
+.vis{margin-top:110px;background:var(--pu);color:#fff;border-radius:36px;padding:54px;display:grid;grid-template-columns:1.1fr 1fr 300px;gap:30px;align-items:center}.vis h2{font-size:clamp(44px,5vw,76px)}.vis h2 span{color:var(--go)}.vis p{opacity:.85;margin:4px 0}.vis img{border-radius:24px;height:240px;width:100%;object-fit:cover}
+footer{padding:26px 0;font-size:13px;color:var(--mu)}footer .w{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:900px){header nav{display:none}header img{height:50px}.hero,.split{grid-template-columns:1fr;gap:30px}.hero p{font-size:17px}.how{grid-template-columns:1fr 1fr}.hw{padding:18px}.hw b{font-size:34px}.hw h3{font-size:20px}.pc{min-height:380px}.vis{grid-template-columns:1fr;padding:32px 24px;border-radius:28px}.sec{padding-top:80px}.vis{margin-top:80px}}
+</style></head><body>
+<div class="rib"><b>Concept by Ofonime Usuyak</b>, not the official Ultra Taste website. Photos and details are from ultrataste.com.ng.</div>
+<div class="w"><header><img src="img/6ed1499b.webp" alt="Ultra Taste Catering Services logo"><nav><a href="#how">How it works</a><a href="#menu">Soups &amp; catering</a><a href="#visit">Visit</a></nav><a class="bt g" href="#how">Order by chat</a></header>
+<section class="hero"><div><h1>Your soup order,<br><span>in one chat.</span></h1><p>Pick a soup, choose a size, pay and set delivery, all inside a chat. No back-and-forth. Event quotes work the same way.</p><div class="hb"><a class="bt g" href="#how">Start a chat order</a><a class="bt o" href="#menu">Catering quotes</a></div></div>
+<div class="chat"><div class="ch"><span class="av"></span><div><b>Ultra Taste</b><span>Order assistant · sample</span></div></div><div class="cb">
+<div class="m">Hi! What would you like today?<div class="opts" style="margin-top:8px"><span class="on">Soup order</span><span>Event quote</span><span>Canteen</span></div></div>
+<div class="m me">Soup order<small>10:02</small></div>
+<div class="card"><img src="img/97c6cfa9.jpg" alt="Ogbono soup in containers"><div><b>Ogbono soup</b>Choose a size · ₦ sample</div></div>
+<div class="m">Which size?<div class="opts" style="margin-top:8px"><span>1 litre</span><span class="on">2 litres</span><span>4 litres</span></div></div>
+<div class="m me">2 litres, deliver Saturday<small>10:03</small></div>
+<div class="m">Done ✓ Total ₦ sample. Tap to pay, and we'll confirm your delivery slot.</div></div></div></section>
+<section class="sec" id="how"><div class="hd"><div><span class="lab">Proposed next step</span><h2>Order in <span>four taps.</span></h2></div><p>An ordering assistant on your chat line. It takes soup orders and event enquiries day or night, then hands confirmed orders to your kitchen.</p></div>
+<div class="how"><div class="hw"><b>1</b><h3>Pick</h3><p>Soup, tray or event.</p></div><div class="hw"><b>2</b><h3>Size</h3><p>Litres or guest count.</p></div><div class="hw"><b>3</b><h3>Pay</h3><p>Secure link in the chat.</p></div><div class="hw"><b>4</b><h3>Done</h3><p>Kitchen gets the order.</p></div></div>
+<p class="nt">Illustration of a feature we can build. Not live today. Sizes, prices and times are samples; photos are from Ultra Taste.</p></section>
+<section class="sec" id="menu"><div class="split"><div class="pc"><img src="img/97c6cfa9.jpg" alt="Ogbono soup by Ultra Taste"><div><h3>Special soup orders</h3><p>Your favourite Nigerian soups, without the kitchen stress.</p></div></div><div class="pc"><img src="img/2874bb08.jpg" alt="Ultra Taste buffet setup"><div><h3>Catering for every gathering</h3><p>Weddings, corporate, birthdays and buffets.</p></div></div></div>
+<div class="svc"><span>Wedding catering</span><span>Corporate catering</span><span>Buffet</span><span>Birthday parties</span><span>Outdoor catering</span><span>Canteen management</span></div></section>
+<section class="vis" id="visit"><div><h2>Good food.<br><span>Beautiful moments.</span></h2></div><div><p>5/7 Abisogun Leigh Street, Ogba-Ikeja, Lagos</p><p>info@ultrataste.com.ng</p></div><img src="img/24c0d7ef.jpg" alt="The Ultra Taste team"></section></div>
+<footer><div class="w"><span>Concept by Ofonime Usuyak for Ultra Taste Catering Services. Not the official website.</span><span>Photos and details from ultrataste.com.ng</span></div></footer>
+</body></html>
